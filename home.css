@@ -1,16 +1,18 @@
 .maxwidth{
-    border: 1px solid red;
+    padding-top: 62px;
+    /* border: 1px solid red; */
 
-    height: 100vh;
+    height: auto;
     width: auto;
     margin-top: 10px;
+    padding-bottom: 100px;
     /* background-color: rgb(251, 133, 255); */
 }
 .profile{
     /* border: 1px solid greenyellow; */
     width: 90%;
-    height: 90vh;
-    margin:30px auto;
+    height: auto;
+    margin:100px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,7 +25,6 @@
     border-right-color: crimson;
     border-left-color: crimson;
     border-block-color: rgb(168, 27, 74);
-
     border-radius: 50%;
 }
 .text-1,.text-3{

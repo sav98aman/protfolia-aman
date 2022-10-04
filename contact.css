@@ -1,0 +1,91 @@
+.contact{
+    padding-top: 60px;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.contactcard{
+    /* border: 1px solid green; */
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.contactleft{
+    /* border: 1px solid red; */
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+
+}
+#contactimg{
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: auto;
+}
+.contactright{
+    /* border: 1px solid green; */
+    width: 40%;
+    margin: auto;
+}
+#from>input,#meassage{
+    /* border: 1px solid green; */
+    width: 100%;
+    background-color: antiquewhite;
+}
+#L-g-g{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lgg{
+    /* border: 1px solid red; */
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+.lgg>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#gmail{
+    background-color: crimson;
+}
+#gmail:hover{
+    background-color: rgb(161, 35, 60)
+}
+#linkedin{
+    background-color: rgb(17, 111, 235);
+    color: white;
+}
+#linkedin:hover{
+    background-color: rgb(48, 100, 168);
+    color: white;
+}
+#github{
+    background-color: black;
+}
+
+#github:hover{
+    background-color: rgb(48, 36, 36);
+}
+
+
+#contactimg-section{
+    max-width: 50%;
+    height: auto;
+}
+@media (max-width:920px) {
+    .contactcard{
+        /* border: 1px solid green; */
+        margin: auto;
+    
+        display: block;
+        gap: 20px;
+    
+    }
+}
